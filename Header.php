@@ -11,7 +11,7 @@ c:
   <li><a href="index.php">Home</a></li>
   <li><a href="login.php">Login</a></li>
   <li><a href="reg.php">Registry</a></li>
-  <li><a href="login.php">Logout</a></li>
+  <li><a href="Logout.php">Logout</a></li>
   <h3 style="float:right"><?php echo "Logged in as " . $_SESSION["username"];
 ?></h3>
 </ul>
