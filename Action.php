@@ -1,5 +1,3 @@
-<html>
-</html>
 <?php
 session_start();
 include 'Database.php';
@@ -25,6 +23,7 @@ $_SESSION["username"] = "$user";
 $_SESSION["password"] = "$pass";
 $_SESSION["admin"] = "$data_Admin";
 $_SESSION["sqlpass"] = "$data_pass";
+$_SESSION["logged"] = "1";
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
